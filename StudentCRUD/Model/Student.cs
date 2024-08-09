@@ -9,7 +9,7 @@ namespace StudentCRUD.Model
         public int StudentId { get; set; }
 
         [Required]
-        [Column(TypeName = "navchar(250)")]
+        [Column(TypeName = "nvarchar(250)")]
         public string Name { get; set; } = "";
 
         public string ContactNumber { get; set; } = "";
